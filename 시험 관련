@@ -1,0 +1,158 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMoJyNfmdU/hqfnXD7Bol3p",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/nowfutureland/Python2/blob/main/%EC%8B%9C%ED%97%98%20%EA%B4%80%EB%A0%A8\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 7,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "XpYfBa0aSlPc",
+        "outputId": "f4b56403-6365-4e82-9567-4955ee87fed8"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['1', '2', '3', '4', '5']\n",
+            "3\n"
+          ]
+        }
+      ],
+      "source": [
+        "#함수정의  def\n",
+        "#배열  arr\n",
+        "#확장자명 .py\n",
+        "# 논리연산자 != , and , or , <=, not\n",
+        "\n",
+        "abc = '1,2,3,4,5'\n",
+        "ddong = abc.split(',')\n",
+        "print(ddong)\n",
+        "print(ddong[2])"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num = int(input())\n",
+        "if num>=0:\n",
+        "  while num <=10 :\n",
+        "    print(num)\n",
+        "    num = num+1"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "2-dl_rWFVvzg",
+        "outputId": "ea2c08e0-6382-4a80-d01b-7c2b8e441d25"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "5\n",
+            "5\n",
+            "6\n",
+            "7\n",
+            "8\n",
+            "9\n",
+            "10\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num = int(input(\"3이상의 숫자를 입력\"))\n",
+        "\n",
+        "sum = 0\n",
+        "i = 1\n",
+        "while i<num :\n",
+        "  sum = sum+i\n",
+        "  i=i+1\n",
+        "\n",
+        "print(sum)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "cVveCJy6XQKn",
+        "outputId": "0e25b5ab-ed1b-485f-c29b-19b723f56065"
+      },
+      "execution_count": 11,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "3이상의 숫자를 입력4\n",
+            "6\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = int(input())\n",
+        "for k in range(1,a,5) : # a-1 까지 #\n",
+        "  print(k) #6번 출력 -> 실행하지 않고도 몇번출력 인지 알아야 하다(시험볼때)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "LLcGQSyychmS",
+        "outputId": "0d99b87f-f5aa-4b79-c53d-0fff65fd9d76"
+      },
+      "execution_count": 13,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "30\n",
+            "1\n",
+            "6\n",
+            "11\n",
+            "16\n",
+            "21\n",
+            "26\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
