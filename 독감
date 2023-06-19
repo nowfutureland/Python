@@ -1,0 +1,6 @@
+a=input('기침이 있나요?')
+b=float(input('채온을 입력:'))
+if a=='Y' and b>=38.5:
+  print('독감')
+elif a=='N':
+  print('독감 아님')
